@@ -10,5 +10,5 @@ date
 
 #The number of lines of code contained in guessinggame.sh.
 
-wc -l guessinggame.sh
+wc -l guessinggame.sh|awk '{print $1}'
 
